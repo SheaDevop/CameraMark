@@ -1,7 +1,7 @@
-'use strict';
-
 //stripe
 const stripe = require("stripe")(process.env.STRIPE_KEY);
+
+'use strict';
 
 /**
  * order controller
@@ -52,5 +52,5 @@ module.exports = createCoreController('api::order.order', ({strapi}) => ({
 		} catch (error) {
 			ctx.response.status = 500;
 		}
-	}
+	},
 }));
