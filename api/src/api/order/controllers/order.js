@@ -39,7 +39,7 @@ module.exports = createCoreController('api::order.order', ({strapi}) => ({
 				success_url: `${process.env.CLIENT_URL}?success=true`,
 				cancel_url: `${process.env.CLIENT_URL}?success=false`,
 				line_items: lineItems,
-				shipping_adress_collection: { allowed_countries: ["US", "CA"] },
+				shipping_address_collection: { allowed_countries: ["US", "CA"] },
 				payment_method_types: ["card"],
 			})
 			await strapi.service("api::order.order").create({
