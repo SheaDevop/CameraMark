@@ -13,7 +13,7 @@ const Product = ({ product }) => {
           ''
         )}
         <div className='w-full h-[200px] flex items-center justify-center relative'>
-          <img className='w-[160px] h-[160px] group-hover:scale-90 transition-all' src={`https://cameramark.onrender.com${product.attributes.image.data.attributes.url}`} alt='product'/>
+          <img className='w-[160px] h-[160px] group-hover:scale-90 transition-all' src={`https://cameramark.up.railway.app${product.attributes.image.data.attributes.url}`} alt='product'/>
         </div>
         <div className='px-6 pb-8 flex flex-col'>
           <div className='text-sm text-accent capitalize mb-2'>

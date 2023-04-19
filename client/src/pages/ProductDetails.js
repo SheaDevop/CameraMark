@@ -29,7 +29,7 @@ const ProductDetails = () => {
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row gap-[30px] mb-[30px]'>
           <div className='flex-1 lg:max-w-[40%] lg:h-[540px] grad rounded-lg flex justify-center items-center'>
-            <img className='w-full max-w-[65%]' src={`https://cameramark.onrender.com${data[0].attributes.image.data.attributes.url}`}  alt='product'/>
+            <img className='w-full max-w-[65%]' src={`https://cameramark.up.railway.app${data[0].attributes.image.data.attributes.url}`}  alt='product'/>
           </div>
           <div className='flex-1 bg-primary p-12 xl:p-20 rounded-lg flex flex-col justify-center'>
             <div className='uppercase text-accent text-lg font-medium mb-2'>

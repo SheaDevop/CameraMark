@@ -12,7 +12,7 @@ const CartItem = ({ item }) => {
   return (
     <div className='flex gap-x-8'>
       <Link to={`product/${item.id}`} className='w-[70px] h-[70px]'>
-        <img src={`https://cameramark.onrender.com${item.attributes.image.data.attributes.url}`} alt='product'/>
+        <img src={`https://cameramark.up.railway.app${item.attributes.image.data.attributes.url}`} alt='product'/>
       </Link>
       <div className='flex-1'>
         <div className='flex gap-x-4 mb-3 '>
